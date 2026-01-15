@@ -14,14 +14,6 @@ export function TopBanner() {
   }
 
   return (
-    <div className="relative w-full max-w-3xl px-2 py-2 mx-auto mt-4 mb-2 font-medium text-white bg-orange-500 rounded-md text-sm">
-      <button
-        onClick={handleCloseBanner}
-        className="absolute top-2 right-2 p-1 bg-orange-600 hover:bg-orange-700 rounded transition-colors"
-        aria-label="Close banner"
-      >
-        <X className="w-4 h-4" />
-      </button>
-    </div>
+    
   );
 }
